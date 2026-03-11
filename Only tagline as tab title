@@ -2,7 +2,7 @@ Function - Will remove the Site title and keep the tagline as tab title.
 
 Placement: Function.php (at the bottom)
 
-The Code to paste:
+The Code to paste is:
 
 add_filter('pre_get_document_title', function() {
     return get_bloginfo('description');
